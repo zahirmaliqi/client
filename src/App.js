@@ -29,11 +29,11 @@ function App() {
     {data.map((item,index)=>
     (
     <>
-    <MDBCard  key={index} style={{maxWidth:"10rem",maxHeight:"10rem"}}>
+    <MDBCard  key={index} style={{maxWidth:"22rem",maxHeight:"24rem"}}>
        <MDBCardImage 
        src={
         item && item.ships[0] && item.ships[0].image
-        ? item.ships[0].image : "https://www.businessinsider.com/cruise-industry-ship-staff-pandemic-celebrity-carnival-work-2021-8"}
+        ? item.ships[0].image : "https://cdn.pixabay.com/photo/2016/08/08/15/08/cruise-1578528__480.jpg"}
         position="top"
         alt={item.mission_name}
         />
